@@ -1,5 +1,7 @@
 # TicTacToe
-This game is a simulation of Tic Tac Toe game. It has 2 levels of web components. There is a board and the nine squares which are the buttons and children of the board. Board is the parent component and squares are the child components. To keep track of whose turn it is, a state is kept track of at board level. The child needs to know whose turn it is so there needs to be communication of the state between parent and child. Callbacks are used here. A callback is passed down from the parent to a child so the child can do what it needs to do and then transfer the information back to the parent. The nine children keep track of their own state, whether they are an X or an O. 
+This game is a simulation of Tic Tac Toe game. It is played on a 3X3 grid. It has 2 levels of web components. There is a board and the nine squares which are the buttons and children of the board. Board is the parent component and squares are the child components. To keep track of whose turn it is, a state is kept track of at board level. The child needs to know whose turn it is so there needs to be communication of the state between parent and child. Callbacks are used here. A callback is passed down from the parent to a child so the child can do what it needs to do and then transfer the information back to the parent. The nine children keep track of their own state, whether they are an X or an O. The first player to occupy 3 spaces in a row, column or diagonal wins. 
+
+Roadmap of future improvements: I would like to add 2 new features: The already clicked buttons to be disabled and to keep track of the score of each player.
 
 MIT License
 
